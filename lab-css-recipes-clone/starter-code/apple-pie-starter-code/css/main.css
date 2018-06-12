@@ -2,11 +2,22 @@
   
   body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
     text-align: center;
     }
-   
-  
+    .cover-page{
+      position:relative;
+      width: 90%;
+      margin: auto;
+      }
+      
+      .apple-pie-image img{
+      height: 800px;
+      }
+
+      ul, li {
+        list-style:none;
+        }
+        
     .image1 {
         position: relative;
     }
@@ -17,6 +28,7 @@
   
       h1 {
         color: black;
+        text-align:center;
         font-size: 30px;
       }
   
@@ -30,7 +42,7 @@
        }
   
        hr {
-        width: 50%;
+        width: 40%;
         background-color: grey;
       }
     
